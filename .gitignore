@@ -1,0 +1,5 @@
+# Ignoring Node_Modules 
+node_modules/*
+
+# Ignoring Design Folder
+Design/*
