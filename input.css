@@ -5,3 +5,17 @@
 body {
   font-family: "DM Sans", sans-serif;
 }
+
+/* ============== Navbar + Hero Background ============== */
+
+.nav-hero {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(241, 205, 255);
+  background: linear-gradient(
+    135deg,
+    rgba(241, 205, 255, 1) 5%,
+    rgba(251, 240, 238, 1) 25%,
+    rgba(253, 252, 249, 1) 40%
+  );
+}
