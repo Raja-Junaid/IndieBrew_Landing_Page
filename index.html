@@ -24,8 +24,65 @@
   <body>
     <div class="nav-hero">
       <!--============================== NAVBAR ==============================-->
+      <nav
+        class="relative container mx-auto px-6 py-10 md:py-10 md:px-0 lg:px-12 lg:py-10"
+      >
+        <div class="flex justify-between items-center">
+          <div>
+            <img src="Assets/Logo.svg" alt="" />
+          </div>
+          <div class="text-lg md:block hidden">
+            <a
+              href="#"
+              class="mx-5 p-4 md:mx-1 lg:mx-1.5 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="mx-5 p-4 md:mx-1 lg:mx-1.5 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
+              >Support</a
+            >
+            <button
+              class="px-5 py-3.5 text-White font-semibold rounded-md bg-blueViolet hover:bg-lightSlateBlue transition-all ease-in-out"
+              >Get Started - <span class="font-normal">it's free</span></button
+            >
+          </div>
+          <div class="hamburger text-2xl text-Black md:hidden">
+            <i class="ri-menu-fill"></i>
+          </div>
+        </div>
 
+        <div class="md:hidden">
+          <div
+            class="modal absolute flex-col w-screen h-screen items-center self-end py-0 mt-0 justify-center space-y-8 font-bold tracking-normal text-xl text-darkGray bg-Alabaster sm:w-auto sm:self-center top-0 right-0 drop-shadow-2xl hidden"
+          >
+            <div
+              class="close text-3xl font-light text-veryDarkGray rounded-lg p-1 py-0 absolute top-10 right-[30%]"
+            >
+              <i class="ri-close-line"></i>
+            </div>
+            <a
+              href="#"
+              class="-mb-0 p-4 text-2xl mr-20 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="-mb-0 p-4 text-2xl mr-20 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
+              >Support</a
+            >
+            <a
+              href="#"
+              class="-mb-0 p-4 text-2xl mr-20 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
+              >Get Started</a
+            >
+          </div>
+        </div>
+      </nav>
       <!--====================================================================-->
+
+      <!-- ========== JavaScript ========== -->
+      <script src="js/script.js"></script>
     </div>
   </body>
 </html>

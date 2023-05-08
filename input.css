@@ -6,8 +6,11 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-/* ============== Navbar + Hero Background ============== */
+body.no-scroll {
+  overflow: hidden;
+}
 
+/* ============== Navbar + Hero Background ============== */
 .nav-hero {
   width: 100vw;
   height: 100vh;
@@ -18,4 +21,23 @@ body {
     rgba(251, 240, 238, 1) 25%,
     rgba(253, 252, 249, 1) 40%
   );
+}
+
+.nav-hero.blur {
+  background-color: rgba(0, 0, 0, 0.219);
+  filter: blur(5px);
+}
+
+/* ========= Navbar Animation ========= */
+.modal {
+  animation: slideInRight 0.5s forwards ease-in-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(25%);
+  }
 }
