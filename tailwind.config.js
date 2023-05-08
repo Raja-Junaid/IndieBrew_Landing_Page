@@ -16,7 +16,7 @@ module.exports = {
       },
 
       gridTemplateColumns: {
-        custom: "2fr 1fr",
+        custom: "1fr 1fr",
       },
     },
   },

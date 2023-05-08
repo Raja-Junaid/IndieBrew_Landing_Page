@@ -21,11 +21,11 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="overflow-y-hidden">
     <div class="nav-hero">
       <!--============================== NAVBAR ==============================-->
       <nav
-        class="relative container mx-auto px-6 py-10 md:py-10 md:px-0 lg:px-12 lg:py-10"
+        class="relative container mx-auto px-6 py-10 md:py-10 md:px-0 lg:px-16 lg:py-10"
       >
         <div class="flex justify-between items-center">
           <div>
@@ -55,7 +55,42 @@
       <!--====================================================================-->
 
       <!--========================= HERO SECTION =============================-->
-      <section></section>
+      <section>
+        <div
+          class="pb-24 grid grid-cols-1 container mx-auto px-6 py-4 space-y-12 md:grid-cols-custom md:space-y-0 lg:px-16 lg:pt-12 lg:gap-16 lg:items-center"
+        >
+          <div class="md:order-last w-[95%] lg:w-[100%]">
+            <img src="Assets/Feed Mockup.png" alt="Feed Mockup Image" />
+          </div>
+          <div class="space-y-5">
+            <h1 class="text-5xl font-bold leading-[3.4rem] block lg:hidden"
+              >Your weekly personal feed digest.</h1
+            >
+            <h1 class="text-5xl font-bold leading-[3.4rem] hidden lg:block"
+              >Your weekly <br />
+              personal feed digest.</h1
+            >
+            <p class="text-lg text-dimGray"
+              >With IndieBrew, get personal feeds from resources all around the
+              web, including Reddit, HackerNews, IndieHacker, and much more.</p
+            >
+            <button
+              class="px-5 py-3.5 text-White font-semibold rounded-md bg-blueViolet hover:bg-lightSlateBlue transition-all ease-in-out"
+              >Get Started - <span class="font-normal">it's free</span></button
+            >
+            <img
+              class="pt-3 lg:pt-0"
+              src="Assets/User Avatars.svg"
+              alt="Avatars"
+            />
+            <p class="text-lg text-dimGray"
+              >Join
+              <span class="font-bold text-mediumPurple">32,642</span>
+              IndieBrewers in curating their personal digest.</p
+            >
+          </div>
+        </div>
+      </section>
       <!--====================================================================-->
     </div>
 
