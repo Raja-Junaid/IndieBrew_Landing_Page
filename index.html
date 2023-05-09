@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="overflow-x-hidden">
+  <body class="scroll-smooth">
     <div class="nav-hero">
       <!--============================== NAVBAR ==============================-->
       <nav
@@ -57,6 +57,7 @@
       <!--========================= HERO SECTION =============================-->
       <section>
         <div
+          id="hero"
           class="pb-24 grid grid-cols-1 container mx-auto px-6 py-4 space-y-12 md:grid-cols-custom md:space-y-0 lg:px-14 lg:pt-12 lg:gap-16 lg:items-center"
         >
           <div class="md:order-last w-[95%] lg:w-[100%]">
@@ -105,17 +106,17 @@
           <i class="ri-close-line"></i>
         </div>
         <a
-          href="#"
+          href="#hero"
           class="-mb-0 p-4 text-2xl mr-20 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
           >Pricing</a
         >
         <a
-          href="#"
+          href="#support"
           class="-mb-0 p-4 text-2xl mr-20 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
           >Support</a
         >
         <a
-          href="#"
+          href="#getstarted"
           class="-mb-0 p-4 text-2xl mr-20 text-veryDarkGray hover:bg-slate-200 rounded-md transition-all ease-in-out"
           >Get Started</a
         >
@@ -126,6 +127,7 @@
     <!--======================== RESOURCES SECTION =========================-->
     <section>
       <div
+        id="support"
         class="grid grid-cols-1 container mx-auto px-6 py-10 bg-White md:grid-cols-custom md:space-y-0 lg:px-14 lg:pb-20 lg:pt-20 lg:gap-20 lg:items-center"
       >
         <div class="order-last md:order-first">
@@ -150,6 +152,7 @@
     <!--======================== COMFORT SECTION =========================-->
     <section>
       <div
+        id="getstarted"
         class="grid grid-cols-1 container mx-auto px-6 py-16 bg-White md:grid-cols-custom md:space-y-0 lg:px-14 lg:pb-20 lg:pt-16 lg:gap-20 lg:items-center"
       >
         <div class="order-last">
@@ -168,6 +171,50 @@
         </div>
         <div class="mb-10 md:mb-0 lg:w-[90%]">
           <img src="Assets/Phone Mockup.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--====================================================================-->
+
+    <!--============================== FOOTER ==============================-->
+    <section>
+      <div
+        class="grid grid-cols-1 mx-auto px-6 py-16 bg-Alabaster md:grid-cols-custom md:space-y-0 lg:px-24 lg:items-center"
+      >
+        <div class="mr-16 w-full lg:w-[70%]">
+          <h4 class="text-2xl font-bold mb-2">IndieBrew</h4>
+          <p class="text-lg text-dimGray mb-6 lg:mb-8"
+            >With IndieBrew, get personal feeds from resources all around the
+            web, including Reddit, HackerNews, and much more.</p
+          >
+          <p class="text-lg text-dimGray">Made with ❤ in the UK.</p>
+        </div>
+        <div
+          class="grid grid-cols-2 gap-12 gap-x-20 mt-14 md:grid-cols-4 md:mt-0 lg:gap-x-12 lg:gap-0"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Sitemap</p>
+            <p class="text-lg text-dimGray mb-1">Homepage</p>
+            <p class="text-lg text-dimGray mb-1">Pricing</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Resources</p>
+            <p class="text-lg text-dimGray mb-1">Support</p>
+            <p class="text-lg text-dimGray mb-1">Contact</p>
+            <p class="text-lg text-dimGray mb-1">FAQ</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Company</p>
+            <p class="text-lg text-dimGray mb-1">About</p>
+            <p class="text-lg text-dimGray mb-1">Customers</p>
+            <p class="text-lg text-dimGray mb-1">Blog</p>
+          </div>
+          <div>
+            <p class="text-2xl font-bold mb-1.5 lg:mb-3">Resources</p>
+            <p class="text-lg text-dimGray mb-1">HackerNews</p>
+            <p class="text-lg text-dimGray mb-1">Reddit</p>
+            <p class="text-lg text-dimGray mb-1">Twitter</p>
+          </div>
         </div>
       </div>
     </section>
