@@ -26,7 +26,7 @@ body.no-scroll {
 @media screen and (max-width: 645px) {
   .nav-hero {
     width: 100vw;
-    height: 144vh;
+    height: 164vh;
   }
 }
 
