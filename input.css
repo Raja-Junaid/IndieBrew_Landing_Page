@@ -23,6 +23,13 @@ body.no-scroll {
   );
 }
 
+@media screen and (max-width: 645px) {
+  .nav-hero {
+    width: 100vw;
+    height: 144vh;
+  }
+}
+
 /* ========= Navbar Animation ========= */
 .modal {
   animation: slideInRight 0.5s forwards ease-in-out;
